@@ -28,7 +28,6 @@ import org.slf4j.LoggerFactory;
 /**
  * Scraper to bypass Cloudflare DDOS/anti-bot landing page.
  * @author Maximilian Pfister
- *
  */
 public class CloudflareScraper {
 
