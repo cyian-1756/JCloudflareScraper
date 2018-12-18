@@ -117,6 +117,7 @@ public class CloudflareScraper {
 			throws URISyntaxException, ClientProtocolException, IOException {
 		// initialize Rhino
 		Context rhino = Context.enter();
+		rhino.setOptimizationLevel(-1);
 
 		// CF waits for response after some delay
 		try {
